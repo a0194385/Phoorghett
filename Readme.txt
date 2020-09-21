@@ -24,4 +24,11 @@ http://yall1.blogs.rice.edu/
 
 The files do not include YALL1 and Field II, which have to be downloaded by users.
 
+After changing the parameters, new system matrix and RF data should be generated.
+Because the image reconstruction will work correctly only with proper system matrix and RF data.
+
+Users can use the sparse transform defined by users.
+To use a transform matrix, users can save the matrix as variable 'phi' in a .mat file, and then write the "filename.mat" in the edit box next to the "user-defined" button.
+To use a transform function, users can write the transform and inverse transform handle in "transform_handles.m".
+
 Zheheng Liu. Sept. 16, 2020.
